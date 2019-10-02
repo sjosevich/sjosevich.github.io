@@ -1,0 +1,264 @@
+/*-------------------------------------*/
+/*Basic set up*/
+/*-------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+/*-------------------------------------*/
+/*Reusable components*/
+/*-------------------------------------*/
+
+.row {
+    max-width: 960px;
+    margin: 20px 20px;
+    
+    
+}
+
+/*-------------------------------------*/
+/*Navigation*/
+/*-------------------------------------*/
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/so-white.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-top: 2px solid #777777;
+}
+
+ .My-name {
+    height: 90px;
+    width: auto;
+    position: relative;
+    left: 180px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    color: white;
+    background-color: #4aaaa5;
+    
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 15px;
+    
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    text-decoration: none;
+    color: #777777;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #4aaaa5;
+}
+/*-------------------------------------*/
+/*Header*/
+/*-------------------------------------*/
+
+.my-header-text-box {
+    position: absolute;
+    width: 960px;
+    top: 20%;
+    left: 15%;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 200%;
+    font-weight: 300;
+    
+    
+}
+
+hr {
+    
+    width: 910px;
+    height: 1px;
+    position: relative;
+    left: 20px;
+    background-color: #777777;
+    
+}
+
+.My-photo {
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: inline-block;
+    clear: both;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.My-first-text {
+    float: right;
+    display: inline-block;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.My-second-text {
+    clear: both;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width: 927px
+    
+}
+
+/*-------------------------------------*/
+/*Footer*/
+/*-------------------------------------*/
+
+
+.My-footer {
+    text-align: center;
+    background-color: #777777; 
+    height: 60px;
+    display: inline-block;
+    width: 1228px;
+    position: relative;
+    left: 60px;
+    bottom: 61px;
+    border-top: 8px solid #4aaaa5;
+}
+
+.My-copyright {
+    position: relative;
+    top: 30px;
+    color: white;
+}
+
+/*-------------------------------------*/
+/*Form*/
+/*-------------------------------------*/
+
+.My-form {
+    display: inline-block;
+    width: 800px;
+    margin: 20px;
+}
+
+.form-name, .form-email, .form-text {
+   display: inline-block;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width: 920px;  
+   font-size: 70%;    
+}
+.form-name, .form-email {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form-text {
+    height: 150px;
+}
+
+.form-btn {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 70%;
+    padding: 7px 15px;
+    font-weight: 300px;
+    
+}
+
+.form-btn:link,
+.font-btn:visited {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 70%;
+    padding: 7px 15px;
+    font-weight: 300px;
+    transition: background-color 0.2s, border 0.2s;
+}
+
+.form-btn:hover,
+.font-btn:active {
+    background-color: #3b8783;
+    border: 1px solid #3b8783;
+    color: white;
+    font-size: 70%;
+    padding: 7px 15px;
+    font-weight: 300px;
+}
+
+/*-------------------------------------*/
+/*Images-Portfolio*/
+/*-------------------------------------*/
+.box1, .box2, .box3 {
+    float: left;
+    margin-right: 3px;
+    margin-left: 10px;
+    padding-left: 15px;
+    overflow: hidden;
+    
+}
+
+
+
+.Img-camping, .Img-chess, .Img-climb, .Img-programing, .Img-swiming, .Img-squash {
+    position: relative;
+    top: 140px;
+    color: white;
+    background-color: #4aaaa5;
+    font-size: 90%;
+    padding: 10px;
+    width: 260px;
+    text-align: center;
+}
+
+.Img-chess, .Img-climb, .Img-programing, .Img-squash, .Img-squash {
+    left: 0px;
+}
+
+.span-1-of-3 img:hover {
+    transform: scale(1.05);
+}
+
