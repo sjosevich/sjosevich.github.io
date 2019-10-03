@@ -40,12 +40,18 @@ header {
     margin-right: 60px;
     border-top: 2px solid #777777;
 }
+.my-header-text-box {
+    display: inline-block;
+    width: 960px;
+     margin-left: 0px;
+     margin-right: 60px;
+}
 
  .My-name {
     height: 90px;
     width: auto;
     position: relative;
-    left: 180px;
+    left: 13.5%;
     display: inline-block;
     margin-top: 0px;
     margin-bottom: 0px; 
@@ -90,10 +96,11 @@ header {
 /*-------------------------------------*/
 
 .my-header-text-box {
-    position: absolute;
-    width: 960px;
+   position: absolute;
+    width: auto;
     top: 20%;
     left: 15%;
+    right: 10%;
     background-color: #ffffff;
 }
 
@@ -110,12 +117,16 @@ h1 {
 
 hr {
     
-    width: 910px;
+    width: 95%;
     height: 1px;
     position: relative;
     left: 20px;
     background-color: #777777;
     
+}
+
+.about-me {
+    width: 200px;
 }
 
 .My-photo {
@@ -127,14 +138,20 @@ hr {
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 10px;
+    border: 1px solid #777777;
+}
+
+p {
+    text-align: justify;
+    width: 96%;
 }
 
 .My-first-text {
-    float: right;
+    float: left;
     display: inline-block;
-    width: 80%;
+    width: 78%;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
     padding-right: 10px;
     
     
@@ -146,7 +163,7 @@ hr {
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 30px;
-    width: 927px
+    width: 90%;
     
 }
 
@@ -158,19 +175,19 @@ hr {
 .My-footer {
     text-align: center;
     background-color: #777777; 
-    height: 60px;
-    display: inline-block;
-    width: 1228px;
-    position: relative;
-    left: 60px;
-    bottom: 61px;
-    border-top: 8px solid #4aaaa5;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 25px;
+    border-top: 4px solid #4aaaa5;
 }
+
+
 
 .My-copyright {
     position: relative;
-    top: 30px;
+    top: 20px;
     color: white;
+    
 }
 
 /*-------------------------------------*/
