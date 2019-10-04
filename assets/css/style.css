@@ -196,7 +196,7 @@ p {
 
 .My-form {
     display: inline-block;
-    width: 800px;
+    width: 90%;
     margin: 20px;
 }
 
@@ -204,7 +204,7 @@ p {
    display: inline-block;
    margin-top: 10px;
    margin-bottom: 10px;
-   width: 920px;  
+   width: 100%;  
    font-size: 70%;    
 }
 .form-name, .form-email {
